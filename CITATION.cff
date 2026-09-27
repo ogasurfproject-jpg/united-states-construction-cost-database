@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "United States Construction Cost Database (USCCDB)"
+abstract: >-
+  USCCDB v1.0 holds 2,849,829 rows of construction cost observations from U.S.
+  public documents (prevailing wages, wages, indexes, area factors, equipment
+  rates, permits and spending, public unit costs and bid prices), one row per
+  item, region, point in time and source, each with its evidence URL and
+  licence. It uses the same columns as the Japan Construction Cost Database.
+authors:
+  - family-names: "Oga"
+    given-names: "Toshikatsu"
+    affiliation: "The HORIZONs Co., Ltd."
+    orcid: "https://orcid.org/0009-0000-9180-903X"
+version: "1.0"
+date-released: "2026-09-26"
+doi: "10.5281/zenodo.22979157"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22979157"
+    description: "This version (v1.0)"
+  - type: doi
+    value: "10.5281/zenodo.22979156"
+    description: "All versions (concept DOI, resolves to the latest)"
+  - type: url
+    value: "https://huggingface.co/datasets/ogasurfproject/usccdb"
+    description: "The same files as Parquet on Hugging Face"
+license: CC-BY-4.0
+type: dataset
+url: "https://doi.org/10.5281/zenodo.22979157"
+repository-code: "https://github.com/ogasurfproject-jpg/united-states-construction-cost-database"
+repository: "https://github.com/ogasurfproject-jpg/horizon-shield/tree/main/data/jccdb-obs-v2"
+keywords:
+  - construction cost
+  - United States
+  - open data
+  - prevailing wage
+  - Davis-Bacon
+  - construction cost index
+  - building permits
+  - USCCDB
